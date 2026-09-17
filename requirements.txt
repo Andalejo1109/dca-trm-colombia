@@ -1,0 +1,3 @@
+# El caso corre con la librería estándar de Python 3.10+.
+# Si más adelante agregas gráficos:
+# matplotlib>=3.8
