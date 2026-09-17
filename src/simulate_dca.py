@@ -3,11 +3,16 @@
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = Path(__file__).resolve().parent
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
 
 from fx_identity import decompose_cop, fmt_cop, fmt_pct, fmt_usd, fx_identity
 
-ROOT = Path(__file__).resolve().parents[1]
 CASE = json.loads((ROOT / "data" / "generic_case.json").read_text())
 
 
