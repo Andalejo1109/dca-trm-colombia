@@ -1,0 +1,24 @@
+{
+  "disclaimer": "Caso estilizado para educación. No es una cuenta real ni una recomendación.",
+  "as_of": "2026-09-17",
+  "trm_actual": 3123,
+  "accounts": {
+    "A_larga": {
+      "label": "Cuenta A — historial largo",
+      "start": "2024-05",
+      "capital_usd": 22200,
+      "valor_usd": 37000,
+      "trm_ponderada": 3929
+    },
+    "B_nueva": {
+      "label": "Cuenta B — historial corto, aportes recientes",
+      "start": "2025-04",
+      "capital_usd": 17300,
+      "valor_usd": 20505,
+      "trm_ponderada": 3752
+    }
+  },
+  "household_dca_cop_monthly": 4000000,
+  "horizon_years": 10,
+  "expected_usd_cagr": 0.08
+}
